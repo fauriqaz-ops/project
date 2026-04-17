@@ -1,0 +1,16 @@
+{
+  "name": "ebookforge-ai",
+  "version": "1.0.0",
+  "description": "Generator Ebook AI powered by Gemini",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "^37.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
