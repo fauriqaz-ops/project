@@ -19,7 +19,7 @@ export default async function handler(req, res) {
     const { systemPrompt, userPrompt } = req.body;
     if (!userPrompt) return res.status(400).json({ error: "userPrompt wajib diisi" });
 
-    const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+    const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=${API_KEY}`;
 
     const payload = {
       contents: [
