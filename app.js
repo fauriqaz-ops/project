@@ -4,7 +4,7 @@
 const STEPS = ["Input", "Struktur", "Konten", "Selesai"];
 const GAYA_OPTIONS = ["Santai & Mengalir", "Formal & Profesional", "Storytelling", "Motivatif", "Akademik Ringan"];
 const PANJANG_OPTIONS = [
-  { label: "Short (~20 hal)", value: "short", bab: 5 },
+  { label: "Short (~20 hal)", value: "short", bab: 5 },   // ubah angka bab
   { label: "Medium (~40 hal)", value: "medium", bab: 8 },
   { label: "Long (~70 hal)", value: "long", bab: 12 },
 ];
